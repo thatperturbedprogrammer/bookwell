@@ -27,6 +27,8 @@
                     </ul>
                 </div>
                 @endforeach
+         <div class="m-5 p-5">{{$authors->links()}}</div>
+            
             </div>
 
             <!-- Books Section -->
@@ -53,8 +55,10 @@
                     </ul>
                 </div>
                 @endforeach
+            <div class="m-5 p-5">{{$books->links()}}</div>
+            
             </div>
-
         </div>
+
     </x-slot:body>
 </x-layout>

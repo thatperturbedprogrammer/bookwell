@@ -64,7 +64,7 @@ Route::get('/authors/{id}', function ($id) {
 
 // Dashboard - All Authors with their Books
 Route::get('/dashboard', function () {
-    $authors = \App\Models\Author::with('books')->get();
-    $books = \App\Models\Book::with('authors')->get();
+    $authors = \App\Models\Author::with('books')->latest()->paginate(5);
+    $books = \App\Models\Book::with('authors')->latest()->paginate(5);
     return view('dashboard', compact('authors', 'books'));
 });
