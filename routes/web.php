@@ -37,6 +37,16 @@ Route::get("/add", function(){
 // POST - Create Book
 Route::post('/books/create', function(){
 
+    // Validation
+     request()->validate([
+        'title' => ['required', 'min:4'],
+        'description' => ['required','min:10'],
+        'published_at'=> ['required', 'min:4'],
+        'author_name'=> ['required', 'min:4'],
+        'author_bio'=> ['required', 'min:10']
+    ]);
+    
+
     // Create Book
     $book = Book::create(['title' => request('title'), 'description' => request('description'), 'published_at' => request('published_at')]);
     

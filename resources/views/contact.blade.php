@@ -15,9 +15,10 @@
                                 GET IN TOUCH WITH US
                             </h2>
                             <p class="mb-9 text-base leading-relaxed text-body-color dark:text-dark-6">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eius tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                adiqua minim veniam quis nostrud exercitation ullamco
+                                BookWell – Simplifying book management, one shelf at a time.
+                                Thank you for being part of our community!
+
+
                             </p>
 
                             <div class="mb-8 flex w-full max-w-[370px]">
@@ -35,7 +36,7 @@
                                         Our Location
                                     </h4>
                                     <p class="text-base text-body-color dark:text-dark-6">
-                                        99 S.t Jomblo Park Pekanbaru 28292. Indonesia
+                                        123 Library Lane, Suite 456, Mumbai, MH 400022, India
                                     </p>
                                 </div>
                             </div>
@@ -68,7 +69,7 @@
                                         Phone Number
                                     </h4>
                                     <p class="text-base text-body-color dark:text-dark-6">
-                                        (+62)81 414 257 9980
+                                        (+91)00 414 257 9980
                                     </p>
                                 </div>
                             </div>
@@ -88,7 +89,7 @@
                                         Email Address
                                     </h4>
                                     <p class="text-base text-body-color dark:text-dark-6">
-                                        info@yourdomain.com
+                                        info@bookwell.com
                                     </p>
                                 </div>
                             </div>

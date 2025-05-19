@@ -32,10 +32,10 @@
     <!-- Book Published -->
     <div class="mb-4">
         <label for="published_at" class="block text-sm font-medium text-gray-700">Date of Publication</label>
-        <input type="text" name="published_at" id="published_at" value="{{ old('title') }}"
+        <input type="text" name="published_at" id="published_at" value="{{ old('published_at') }}"
                class="mt-1 p-4 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
                placeholder="e.g. 1880" required>
-        @error('title')
+        @error('published_at')
             <p class="text-sm text-red-500 mt-1">{{ $message }}</p>
         @enderror
     </div>
