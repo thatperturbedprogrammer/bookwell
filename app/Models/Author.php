@@ -9,10 +9,7 @@ class Author extends Model
 {
     use HasFactory;
 
-    protected $fillable = [
-        'name',
-        'bio',
-    ];
+    protected $guarded = [];
 
     // Relationships
     public function books()

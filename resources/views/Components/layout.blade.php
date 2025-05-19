@@ -62,8 +62,8 @@
                                 Contact</x-nav-link>
                             <x-nav-link href="/about" :active="request()->is('about')">
                                 About</x-nav-link>
-                            {{-- <x-nav-link href="/add" :active="request()->is('add')">
-                                Add Book</x-nav-link> --}}
+                            <x-nav-link href="/add" :active="request()->is('add')">
+                                Add Book</x-nav-link>
                         </div>
                     </div>
                 </div>
@@ -106,9 +106,9 @@
                 <a href="/about"
                     class="{{ request()->is('about') ? 'block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-blue-400' : 'block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white' }}">
                     About</a>
-                {{-- <a href="/add"
+                <a href="/add"
                     class="{{ request()->is('add') ? 'block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-blue-400' : 'block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white' }}">
-                    Add Book</a> --}}
+                    Add Book</a>
 
             </div>
         </div>
